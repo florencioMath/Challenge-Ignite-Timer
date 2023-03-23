@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
 export const FormContainer = styled.div`
-  width: 100%;
+  width: 40rem;
+  max-width: 80vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,6 +21,7 @@ const BaseInput = styled.input`
   font-weight: bold;
   font-size: 1.125rem;
   padding: 0 0.5rem;
+
   color: ${(props) => props.theme['gray-100']};
   &:focus {
     box-shadow: none;
@@ -32,7 +34,6 @@ const BaseInput = styled.input`
 
 export const TaskInput = styled(BaseInput)`
   flex: 1;
-
   &::-webkit-calendar-picker-indicator {
     display: none !important;
   }
@@ -40,4 +41,5 @@ export const TaskInput = styled(BaseInput)`
 
 export const MinutesAmountInput = styled(BaseInput)`
   width: 4rem;
+  text-align: center;
 `
