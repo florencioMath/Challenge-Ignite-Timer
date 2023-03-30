@@ -4,7 +4,7 @@
 </div>
 
 <p align="center">
-Aplicativo de ToDo List desenvolvido durante a Trilha ReactJS do Ignite na Rocketseat <br/>
+Aplicativo Timer desenvolvido durante a Trilha ReactJS do Ignite na Rocketseat <br/>
 <a href="https://www.rocketseat.com.br/ignite">Saiba mais sobre o Ignite clicando aqui.</a>
 </p>
 
